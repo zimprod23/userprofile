@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <form
+      action="../includes/register.inc.php"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input type="text" name="name" required />
+      <input type="text" name="fname" required />
+      <input type="email" name="email" required />
+      <input type="text" name="username" required />
+      <input type="password" name="password_1" required />
+      <input type="password" name="password_2" required />
+      <input type="hidden" name="MAX_FILE_SIZE" value="512000">
+      <input type="file" name="picpath" required />
+      <input type="submit" name="sendInfo" value="sendInfo" required />
+    </form>
+  </body>
+</html>

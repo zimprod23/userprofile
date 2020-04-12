@@ -1,0 +1,35 @@
+.Desc {
+  max-width: 600px;
+  margin: 0em;
+  border: none;
+  background-color: chartreuse;
+  text-align: center;
+  padding: 15px;
+}
+.Pic-container,
+.Name-container {
+  display: inline-block;
+}
+
+.Pic-container > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  right: 150px;
+  border-radius: 50px;
+}
+.Addcourse {
+  width: 1000px;
+  height: 80px;
+  background-color: coral;
+}
+
+b {
+  color: aqua;
+  font-size: 30;
+}
+#rmv-button {
+  background-color: red;
+  padding: 10px;
+  font-size: 15px;
+}

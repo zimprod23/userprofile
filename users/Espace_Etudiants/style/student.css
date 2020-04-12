@@ -1,0 +1,33 @@
+/* THE SAME TABLE IN load-course and load-items.php */
+table {
+  border: 2px solid;
+  padding: 10px;
+  margin: 10px auto;
+  width: 960px;
+}
+td,
+th {
+  padding: 10px;
+  border: 2px solid beige;
+}
+.load-course {
+  max-width: 960px;
+  margin: 10px auto;
+  background-color: #1abc9c;
+}
+
+body {
+  background-color: #bdc3c7;
+}
+
+.dwn-btn {
+  background-color: chartreuse;
+  padding: 10px;
+  margin: 2px;
+}
+p {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18;
+  color: aliceblue;
+}
